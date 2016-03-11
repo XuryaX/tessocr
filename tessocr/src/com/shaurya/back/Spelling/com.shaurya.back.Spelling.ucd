@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1019,533" id="com.shaurya.back.Spelling" metadata="uml2-1.0" initialized="true" scrolledY="147" tag="10" key="32303037303533312D3130206F63722D6261636B">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.3/@sourceConnections.0" name="FormatText" location="493,306" size="144,207" id="com.shaurya.back.Types/FormatText">
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="bold" id="com.shaurya.back.Types/FormatText#bold"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="italic" id="com.shaurya.back.Types/FormatText#italic"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="size" id="com.shaurya.back.Types/FormatText#size"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="text" id="com.shaurya.back.Types/FormatText#text"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="underline" id="com.shaurya.back.Types/FormatText#underline"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getBold" id="com.shaurya.back.Types/FormatText#getBold()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getItalic" id="com.shaurya.back.Types/FormatText#getItalic()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUnderline" id="com.shaurya.back.Types/FormatText#getUnderline()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.3" name="SpellCheckException" location="50,50" size="177,81" id="com.shaurya.back.Exceptions/SpellCheckException">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,18">
+      <children xsi:type="editmodel:MethodEditModel" name="SpellCheckException" id="com.shaurya.back.Exceptions/SpellCheckException#SpellCheckException(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Jaspell" location="285,310" size="88,103" id="com.shaurya.back.Spelling/Jaspell">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Jaspell" id="com.shaurya.back.Spelling/Jaspell#Jaspell()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Jaspell" id="com.shaurya.back.Spelling/Jaspell#Jaspell(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="correct" id="com.shaurya.back.Spelling/Jaspell#correct(Lcom.shaurya.back.Types.FormatText;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.shaurya.back.Spelling/SpellCheck&lt;-com.shaurya.back.Spelling/Jaspell" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/Jaspell->com.shaurya.back.Types/FormatText*com.shaurya.back.Spelling/Jaspell-Soyatec::Import->com.shaurya.back.Types/FormatText" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,55"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/Jaspell-Soyatec::Implement->com.shaurya.back.Spelling/SpellCheck" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/Jaspell->com.shaurya.back.Exceptions/SpellCheckException*com.shaurya.back.Spelling/Jaspell->com.shaurya.back.Exceptions/SpellCheckException*com.shaurya.back.Spelling/Jaspell-Soyatec::Import->com.shaurya.back.Exceptions/SpellCheckException" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="8,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,81"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.2/@sourceConnections.2" name="SpellCheck" location="272,179" size="114,81" id="com.shaurya.back.Spelling/SpellCheck">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,18">
+      <children xsi:type="editmodel:MethodEditModel" name="correct" id="com.shaurya.back.Spelling/SpellCheck#correct(Lcom.shaurya.back.Types.FormatText;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/SpellCheck-Soyatec::Import->com.shaurya.back.Types/FormatText" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,81" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,45"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

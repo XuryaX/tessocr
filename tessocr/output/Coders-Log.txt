@@ -1,0 +1,35 @@
+LndT 1st Page - asd.jpg
+
+	Spell Check Reduces errors from 26 to 18 in LndT Page
+
+
+IBMTest Results:
+
+	Run 1 - Coordinate out of bounds error - Probable Error in GetImageText
+		Fix- Reworked the Start & End Points of Height and widths.
+		The decrease and increase by 25 pixels is now inside the max and Min function, so that it doesn't get out of bounds.
+
+	Run 2 - Program Runs Successfully but after finishing gives an empty page message. Either given by Tesseract or GetImageText. 
+		Probably running another thread which would imply Tesseract. Can be that it is trying to read images that  are wrongly detected
+		Checked - Error due to Tesseract
+		Bug Found: Erroneous Results , if images are present.
+		Not that it would just give that there will be no output. It would disrupt the avergae size and the densities.
+
+
+After Implementing the Classify Feature:
+	Using LnT Offer:
+		Run 1: Exception in main: java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Ljava.lang.Integer; - Problem in Statistical
+		
+		Has to be:
+			return(median(reslist.toArray(new Integer[reslist.size()])));
+		Instead of:
+			return(median((Integer)reslist.toArray()));
+
+		Run 2: Works, but apparently everything is same.
+		
+	Using IBM:
+		Run 1: No formatting changes, whatsoever 
+		BUG: Few Changes havent been made in the docwriter.
+		
+		Run 2:
+			Below Average Results. Isnt looking good.

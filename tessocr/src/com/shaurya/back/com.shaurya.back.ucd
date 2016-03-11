@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="2434,1666" id="com.shaurya.back" metadata="uml2-1.0" initialized="true" scrolledY="-1" tag="10" key="32303037303533312D3130206F63722D6261636B">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.1 //@children.13/@sourceConnections.1 //@children.14/@sourceConnections.0" name="OCRException" location="780,13" size="133,81" id="com.shaurya.back.Exceptions/OCRException" runTimeClassModel="OCRException(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,18">
+      <children xsi:type="editmodel:MethodEditModel" name="OCRException" id="com.shaurya.back.Exceptions/OCRException#OCRException(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.6 //@children.8/@sourceConnections.3" name="SpellCheckException" location="448,705" size="177,81" id="com.shaurya.back.Exceptions/SpellCheckException" runTimeClassModel="SpellCheckException(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,18">
+      <children xsi:type="editmodel:MethodEditModel" name="SpellCheckException" id="com.shaurya.back.Exceptions/SpellCheckException#SpellCheckException(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0" name="TextRegion" location="10,25" size="106,240" id="com.shaurya.back.Types/TextRegion" runTimeClassModel="aspect(),TextRegion(IIIIIID),mass,setvstart(I),width(),hend(),sethend(I),height(),density(),sethstart(I),area(),y1,vstart(),vend(),x1,y2,x2,setvend(I),hstart()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="mass" id="com.shaurya.back.Types/TextRegion#mass"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x1" id="com.shaurya.back.Types/TextRegion#x1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x2" id="com.shaurya.back.Types/TextRegion#x2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y1" id="com.shaurya.back.Types/TextRegion#y1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y2" id="com.shaurya.back.Types/TextRegion#y2"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,252">
+      <children xsi:type="editmodel:MethodEditModel" name="TextRegion" id="com.shaurya.back.Types/TextRegion#TextRegion(IIIIIID)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="area" id="com.shaurya.back.Types/TextRegion#area()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="aspect" id="com.shaurya.back.Types/TextRegion#aspect()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="density" id="com.shaurya.back.Types/TextRegion#density()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="height" id="com.shaurya.back.Types/TextRegion#height()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hend" id="com.shaurya.back.Types/TextRegion#hend()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hstart" id="com.shaurya.back.Types/TextRegion#hstart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sethend" id="com.shaurya.back.Types/TextRegion#sethend(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sethstart" id="com.shaurya.back.Types/TextRegion#sethstart(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setvend" id="com.shaurya.back.Types/TextRegion#setvend(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setvstart" id="com.shaurya.back.Types/TextRegion#setvstart(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vend" id="com.shaurya.back.Types/TextRegion#vend()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vstart" location="13,354" id="com.shaurya.back.Types/TextRegion#vstart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="width" id="com.shaurya.back.Types/TextRegion#width()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.7" name="Statistical" location="32,585" size="104,157" id="com.shaurya.back/Statistical" runTimeClassModel="median(Ljava.util.ArrayList;),mad(Ljava.util.ArrayList;),mad(Ljava.util.ArrayList;I),mad([Ljava.lang.Integer;I),mad([Ljava.lang.Integer;),median([Ljava.lang.Integer;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="64,108">
+      <children xsi:type="editmodel:MethodEditModel" name="mad" id="com.shaurya.back/Statistical#mad([Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mad" id="com.shaurya.back/Statistical#mad(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mad" id="com.shaurya.back/Statistical#mad([Ljava.lang.Integer;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mad" id="com.shaurya.back/Statistical#mad(Ljava.util.ArrayList;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="median" id="com.shaurya.back/Statistical#median(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="median" id="com.shaurya.back/Statistical#median([Ljava.lang.Integer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/Statistical->com.shaurya.back.Types/RegionImage" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,189"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.2 //@children.12/@sourceConnections.2 //@children.10/@sourceConnections.2 //@children.9/@sourceConnections.0 //@children.8/@sourceConnections.1 //@children.11/@sourceConnections.0" name="FormatText" location="720,312" size="130,207" id="com.shaurya.back.Types/FormatText" runTimeClassModel="size,underline,getItalic(),text,bold,getBold(),italic,getUnderline()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="bold" id="com.shaurya.back.Types/FormatText#bold"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="italic" id="com.shaurya.back.Types/FormatText#italic"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="size" id="com.shaurya.back.Types/FormatText#size"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="text" id="com.shaurya.back.Types/FormatText#text"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="underline" id="com.shaurya.back.Types/FormatText#underline"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getBold" id="com.shaurya.back.Types/FormatText#getBold()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getItalic" id="com.shaurya.back.Types/FormatText#getItalic()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUnderline" id="com.shaurya.back.Types/FormatText#getUnderline()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.1 //@children.7/@sourceConnections.4 //@children.3/@sourceConnections.0" name="RegionImage" location="10,337" size="147,189" id="com.shaurya.back.Types/RegionImage" runTimeClassModel="height(),image,density(),density,RegionImage(Ljava.awt.image.BufferedImage;D),image(),width()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="density" id="com.shaurya.back.Types/RegionImage#density"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="image" id="com.shaurya.back.Types/RegionImage#image"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,90">
+      <children xsi:type="editmodel:MethodEditModel" name="RegionImage" id="com.shaurya.back.Types/RegionImage#RegionImage(Ljava.awt.image.BufferedImage;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="density" id="com.shaurya.back.Types/RegionImage#density()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="height" id="com.shaurya.back.Types/RegionImage#height()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="image" id="com.shaurya.back.Types/RegionImage#image()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="width" id="com.shaurya.back.Types/RegionImage#width()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.shaurya.back.Types/RegionImage@textimage+com.shaurya.back/ImageToDocument@" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="textimage" location="147,125" id="com.shaurya.back.Types/RegionImage@textimage+com.shaurya.back/ImageToDocument@|com.shaurya.back.Types/RegionImage#textimage" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - textimage" location="164,469" size="56,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="164,441" size="4,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,91" id="com.shaurya.back.Types/RegionImage@textimage+com.shaurya.back/ImageToDocument@|com.shaurya.back/ImageToDocument#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.12" name="GetImageText" location="170,20" size="171,216" id="com.shaurya.back/GetImageText" runTimeClassModel="merge_distfac,isolateText(Ljava.util.LinkedList;),blue(I),rgb(III),getContrast(),merge_mass,merge_densityFactor,getTextBoxes(),GetImageText(Ljava.awt.image.BufferedImage;DIIDI),SetRedBorder(Ljava.util.LinkedList;),merge(Lcom.shaurya.back.Types.TextRegion;Lcom.shaurya.back.Types.TextRegion;),discardNonText(Ljava.util.LinkedList;[[I),red(I),print(),shrink(Ljava.util.LinkedList;[[I),merge_dist1,merge_dist2,merge(Ljava.util.LinkedList;),GetImageText(Ljava.awt.image.BufferedImage;),green(I),getRegionImage()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="merge_densityFactor" id="com.shaurya.back/GetImageText#merge_densityFactor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="merge_dist1" id="com.shaurya.back/GetImageText#merge_dist1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="merge_dist2" id="com.shaurya.back/GetImageText#merge_dist2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="merge_distfac" id="com.shaurya.back/GetImageText#merge_distfac"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="merge_mass" id="com.shaurya.back/GetImageText#merge_mass"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,288">
+      <children xsi:type="editmodel:MethodEditModel" name="GetImageText" id="com.shaurya.back/GetImageText#GetImageText(Ljava.awt.image.BufferedImage;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetImageText" id="com.shaurya.back/GetImageText#GetImageText(Ljava.awt.image.BufferedImage;DIIDI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetRedBorder" id="com.shaurya.back/GetImageText#SetRedBorder(Ljava.util.LinkedList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="blue" id="com.shaurya.back/GetImageText#blue(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="discardNonText" id="com.shaurya.back/GetImageText#discardNonText(Ljava.util.LinkedList;[[I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContrast" id="com.shaurya.back/GetImageText#getContrast()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRegionImage" id="com.shaurya.back/GetImageText#getRegionImage()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTextBoxes" id="com.shaurya.back/GetImageText#getTextBoxes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="green" id="com.shaurya.back/GetImageText#green(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isolateText" id="com.shaurya.back/GetImageText#isolateText(Ljava.util.LinkedList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="merge" id="com.shaurya.back/GetImageText#merge(Lcom.shaurya.back.Types.TextRegion;Lcom.shaurya.back.Types.TextRegion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="merge" id="com.shaurya.back/GetImageText#merge(Ljava.util.LinkedList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="print" id="com.shaurya.back/GetImageText#print()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="red" id="com.shaurya.back/GetImageText#red(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rgb" id="com.shaurya.back/GetImageText#rgb(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="shrink" id="com.shaurya.back/GetImageText#shrink(Ljava.util.LinkedList;[[I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/GetImageText->com.shaurya.back.Types/TextRegion*com.shaurya.back/GetImageText-Soyatec::Import->com.shaurya.back.Types/TextRegion*com.shaurya.back/GetImageText->com.shaurya.back.Types/TextRegion" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,110" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,105"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/GetImageText->com.shaurya.back.Types/RegionImage" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,216" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="ImageToDocument" location="340,344" size="161,175" id="com.shaurya.back/ImageToDocument" runTimeClassModel="mad,median,ImageToDocument(Ljava.awt.image.BufferedImage;),ImageToDocument(Ljava.util.ArrayList;),transform(ILjava.lang.String;),transform(I),average_density">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="average_density" id="com.shaurya.back/ImageToDocument#average_density"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mad" id="com.shaurya.back/ImageToDocument#mad"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="median" id="com.shaurya.back/ImageToDocument#median"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,72">
+      <children xsi:type="editmodel:MethodEditModel" name="ImageToDocument" id="com.shaurya.back/ImageToDocument#ImageToDocument(Ljava.awt.image.BufferedImage;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ImageToDocument" id="com.shaurya.back/ImageToDocument#ImageToDocument(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="transform" id="com.shaurya.back/ImageToDocument#transform(ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="transform" id="com.shaurya.back/ImageToDocument#transform(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.OCR/TesseractEngine" source="//@children.7" target="//@children.13" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,99"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Exceptions/OCRException*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back.Exceptions/OCRException" source="//@children.7" target="//@children.0" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="161,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Types/FormatText*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back.Types/FormatText*com.shaurya.back/ImageToDocument->com.shaurya.back.Types/FormatText" source="//@children.7" target="//@children.4" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="161,87" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,119"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Writers/DocWriter" source="//@children.7" target="//@children.12" targetEnd="//@children.7/@sourceConnections.3/@children.2" label="//@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Types/RegionImage*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back.Types/RegionImage" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.4/@children.2" label="//@children.7/@sourceConnections.4/@children.0" sourceEnd="//@children.7/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,87" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,94"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Writers/TxtWriter" source="//@children.7" target="//@children.10" targetEnd="//@children.7/@sourceConnections.5/@children.2" label="//@children.7/@sourceConnections.5/@children.0" sourceEnd="//@children.7/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="161,41" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,97"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Exceptions/SpellCheckException*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back.Exceptions/SpellCheckException" source="//@children.7" target="//@children.1" targetEnd="//@children.7/@sourceConnections.6/@children.2" label="//@children.7/@sourceConnections.6/@children.0" sourceEnd="//@children.7/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back/Statistical" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.7/@children.2" label="//@children.7/@sourceConnections.7/@children.0" sourceEnd="//@children.7/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,142" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,42"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Spelling/SpellCheck*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back.Spelling/SpellCheck" source="//@children.7" target="//@children.9" targetEnd="//@children.7/@sourceConnections.8/@children.2" label="//@children.7/@sourceConnections.8/@children.0" sourceEnd="//@children.7/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,95"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Spelling/Jaspell" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.9/@children.2" label="//@children.7/@sourceConnections.9/@children.0" sourceEnd="//@children.7/@sourceConnections.9/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="161,164" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.Writers/WriterModel*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back.Writers/WriterModel" source="//@children.7" target="//@children.11" targetEnd="//@children.7/@sourceConnections.10/@children.2" label="//@children.7/@sourceConnections.10/@children.0" sourceEnd="//@children.7/@sourceConnections.10/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,36" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,95"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back.OCR/OCRModel*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back.OCR/OCRModel" source="//@children.7" target="//@children.14" targetEnd="//@children.7/@sourceConnections.11/@children.2" label="//@children.7/@sourceConnections.11/@children.0" sourceEnd="//@children.7/@sourceConnections.11/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,95"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back/ImageToDocument->com.shaurya.back/GetImageText*com.shaurya.back/ImageToDocument-Soyatec::Import->com.shaurya.back/GetImageText*com.shaurya.back/ImageToDocument->com.shaurya.back/GetImageText" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.12/@children.2" label="//@children.7/@sourceConnections.12/@children.0" sourceEnd="//@children.7/@sourceConnections.12/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="170,216"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.9" name="Jaspell" location="705,687" size="88,117" id="com.shaurya.back.Spelling/Jaspell" runTimeClassModel="Jaspell(),Jaspell(Ljava.lang.String;),correct(Lcom.shaurya.back.Types.FormatText;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Jaspell" id="com.shaurya.back.Spelling/Jaspell#Jaspell()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Jaspell" id="com.shaurya.back.Spelling/Jaspell#Jaspell(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="correct" id="com.shaurya.back.Spelling/Jaspell#correct(Lcom.shaurya.back.Types.FormatText;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.shaurya.back.Spelling/SpellCheck&lt;-com.shaurya.back.Spelling/Jaspell" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,95"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/Jaspell->com.shaurya.back.Types/FormatText*com.shaurya.back.Spelling/Jaspell-Soyatec::Import->com.shaurya.back.Types/FormatText" source="//@children.8" target="//@children.4" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/Jaspell-Soyatec::Implement->com.shaurya.back.Spelling/SpellCheck" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,95"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/Jaspell->com.shaurya.back.Exceptions/SpellCheckException*com.shaurya.back.Spelling/Jaspell-Soyatec::Import->com.shaurya.back.Exceptions/SpellCheckException*com.shaurya.back.Spelling/Jaspell->com.shaurya.back.Exceptions/SpellCheckException" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,58" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,40"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.8 //@children.8/@sourceConnections.0 //@children.8/@sourceConnections.2" name="SpellCheck" location="360,135" size="114,95" id="com.shaurya.back.Spelling/SpellCheck" runTimeClassModel="correct(Lcom.shaurya.back.Types.FormatText;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,18">
+      <children xsi:type="editmodel:MethodEditModel" name="correct" id="com.shaurya.back.Spelling/SpellCheck#correct(Lcom.shaurya.back.Types.FormatText;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Spelling/SpellCheck-Soyatec::Import->com.shaurya.back.Types/FormatText" source="//@children.9" target="//@children.4" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,83" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,62"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.5" name="TxtWriter" location="743,151" size="107,135" id="com.shaurya.back.Writers/TxtWriter" runTimeClassModel="file,write(Lcom.shaurya.back.Types.FormatText;),openfile(Ljava.lang.String;),close()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="file" id="com.shaurya.back.Writers/TxtWriter#file"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,54">
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="com.shaurya.back.Writers/TxtWriter#close()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openfile" id="com.shaurya.back.Writers/TxtWriter#openfile(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="com.shaurya.back.Writers/TxtWriter#write(Lcom.shaurya.back.Types.FormatText;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.shaurya.back.Writers/WriterModel&lt;-com.shaurya.back.Writers/TxtWriter" source="//@children.10" target="//@children.12/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Writers/TxtWriter-Soyatec::Implement->com.shaurya.back.Writers/WriterModel" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,134" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Writers/TxtWriter->com.shaurya.back.Types/FormatText*com.shaurya.back.Writers/TxtWriter-Soyatec::Import->com.shaurya.back.Types/FormatText" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,135" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.10 //@children.12/@sourceConnections.0 //@children.12/@sourceConnections.1 //@children.10/@sourceConnections.1" name="WriterModel" location="180,285" size="120,131" id="com.shaurya.back.Writers/WriterModel" runTimeClassModel="write(Lcom.shaurya.back.Types.FormatText;),openfile(Ljava.lang.String;),close()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,54">
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="com.shaurya.back.Writers/WriterModel#close()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openfile" id="com.shaurya.back.Writers/WriterModel#openfile(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="com.shaurya.back.Writers/WriterModel#write(Lcom.shaurya.back.Types.FormatText;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Writers/WriterModel-Soyatec::Import->com.shaurya.back.Types/FormatText" source="//@children.11" target="//@children.4" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,79" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,52"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.3" name="DocWriter" location="195,645" size="146,171" id="com.shaurya.back.Writers/DocWriter" runTimeClassModel="fontFamily,openfile(Ljava.lang.String;),DocWriter(),write(Lcom.shaurya.back.Types.FormatText;),fos,close()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="fontFamily" id="com.shaurya.back.Writers/DocWriter#fontFamily"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fos" id="com.shaurya.back.Writers/DocWriter#fos"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,72">
+      <children xsi:type="editmodel:MethodEditModel" name="DocWriter" id="com.shaurya.back.Writers/DocWriter#DocWriter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="com.shaurya.back.Writers/DocWriter#close()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openfile" id="com.shaurya.back.Writers/DocWriter#openfile(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="com.shaurya.back.Writers/DocWriter#write(Lcom.shaurya.back.Types.FormatText;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.10/@sourceConnections.0" autoLocated="true" id="com.shaurya.back.Writers/WriterModel&lt;-com.shaurya.back.Writers/DocWriter" source="//@children.12" target="//@children.11" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,131" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Writers/DocWriter-Soyatec::Implement->com.shaurya.back.Writers/WriterModel" source="//@children.12" target="//@children.11" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,131"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.Writers/DocWriter->com.shaurya.back.Types/FormatText*com.shaurya.back.Writers/DocWriter-Soyatec::Import->com.shaurya.back.Types/FormatText" source="//@children.12" target="//@children.4" targetEnd="//@children.12/@sourceConnections.2/@children.2" label="//@children.12/@sourceConnections.2/@children.0" sourceEnd="//@children.12/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,41" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,143"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="TesseractEngine" location="585,4" size="145,99" id="com.shaurya.back.OCR/TesseractEngine" runTimeClassModel="TesseractEngine(),getResult(Ljava.awt.image.BufferedImage;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:MethodEditModel" name="TesseractEngine" id="com.shaurya.back.OCR/TesseractEngine#TesseractEngine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getResult" id="com.shaurya.back.OCR/TesseractEngine#getResult(Ljava.awt.image.BufferedImage;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.shaurya.back.OCR/OCRModel&lt;-com.shaurya.back.OCR/TesseractEngine" source="//@children.13" target="//@children.14" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,54" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,45"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.OCR/TesseractEngine->com.shaurya.back.Exceptions/OCRException*com.shaurya.back.OCR/TesseractEngine-Soyatec::Import->com.shaurya.back.Exceptions/OCRException*com.shaurya.back.OCR/TesseractEngine->com.shaurya.back.Exceptions/OCRException" source="//@children.13" target="//@children.0" targetEnd="//@children.13/@sourceConnections.1/@children.2" label="//@children.13/@sourceConnections.1/@children.0" sourceEnd="//@children.13/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,49" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.OCR/TesseractEngine-Soyatec::Implement->com.shaurya.back.OCR/OCRModel" source="//@children.13" target="//@children.14" targetEnd="//@children.13/@sourceConnections.2/@children.2" label="//@children.13/@sourceConnections.2/@children.0" sourceEnd="//@children.13/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,25"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.11 //@children.13/@sourceConnections.0 //@children.13/@sourceConnections.2" name="OCRModel" location="408,13" size="109,95" id="com.shaurya.back.OCR/OCRModel" runTimeClassModel="getResult(Ljava.awt.image.BufferedImage;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getResult" id="com.shaurya.back.OCR/OCRModel#getResult(Ljava.awt.image.BufferedImage;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.shaurya.back.OCR/OCRModel->com.shaurya.back.Exceptions/OCRException*com.shaurya.back.OCR/OCRModel-Soyatec::Import->com.shaurya.back.Exceptions/OCRException" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,40" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

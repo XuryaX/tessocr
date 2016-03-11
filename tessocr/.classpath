@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/dependencies/tess4j.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/jai_imageio.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/jaspell"/>
+	<classpathentry kind="lib" path="lib/dependencies/poi-ooxml-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/poi-ooxml-schemas-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/dependencies/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_60x86"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
