@@ -14,22 +14,22 @@ import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGImageDecoder;
 
 public class client {
-	
-	public static void main(String args[]){
-	       FileInputStream in;
+
+	public static void main(String args[]) {
+		FileInputStream in;
 		try {
 			File file = new File("F:\\asd.jpg");
 			in = new FileInputStream(file);
-			
-		       JPEGImageDecoder decoder = JPEGCodec.createJPEGDecoder( in );
 
-		       BufferedImage image = decoder.decodeAsBufferedImage();
+			JPEGImageDecoder decoder = JPEGCodec.createJPEGDecoder(in);
 
-		       in.close();
-		       
-			   ImageToDocument change = new ImageToDocument(image);
-			   
-			   change.transform(1,file.getParent()+"\\");
+			BufferedImage image = decoder.decodeAsBufferedImage();
+
+			in.close();
+
+			ImageToDocument change = new ImageToDocument(image);
+
+			change.transform(1, file.getParent() + "\\");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -47,9 +47,6 @@ public class client {
 			e.printStackTrace();
 		}
 
-
-		
-		
 	}
 
 }
