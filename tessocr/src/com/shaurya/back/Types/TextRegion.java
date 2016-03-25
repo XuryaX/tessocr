@@ -1,26 +1,10 @@
 package com.shaurya.back.Types;
 
 public class TextRegion {
-
-	/**
-	 * @uml.property  name="x1"
-	 */
 	int x1;
-	/**
-	 * @uml.property  name="y1"
-	 */
 	int y1;
-	/**
-	 * @uml.property  name="x2"
-	 */
 	int x2;
-	/**
-	 * @uml.property  name="y2"
-	 */
 	int y2;
-	/**
-	 * @uml.property  name="mass"
-	 */
 	double mass;
 	
 	public TextRegion(int xs, int ys, int xe, int ye, int maxx, int maxy, double m){
